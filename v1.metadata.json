@@ -1,0 +1,104 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "cdd1cf43-e463-4ff1-94ab-fd1e16b000b6",
+  "location" : "s3://actum-dremio-test2/testing4j",
+  "last-updated-ms" : 1699328925194,
+  "last-column-id" : 4,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "humidity",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "pressure",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 3,
+      "name" : "sensor_id",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "temperature",
+      "required" : false,
+      "type" : "double"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "humidity",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "pressure",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 3,
+      "name" : "sensor_id",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "temperature",
+      "required" : false,
+      "type" : "double"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "compatibility.snapshot-id-inheritance.enabled" : "true",
+    "commit.manifest.target-size-bytes" : "153600"
+  },
+  "current-snapshot-id" : 6079299962354766807,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 6079299962354766807,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 6079299962354766807,
+    "timestamp-ms" : 1699328925194,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "added-records" : "93174",
+      "total-records" : "93174",
+      "total-files-size" : "0",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3://actum-dremio-test2/testing4j/metadata/snap-6079299962354766807-1-d8c8bc54-75bc-4853-9509-6b63fc7df1b6.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1699328925194,
+    "snapshot-id" : 6079299962354766807
+  } ],
+  "metadata-log" : [ ]
+}
